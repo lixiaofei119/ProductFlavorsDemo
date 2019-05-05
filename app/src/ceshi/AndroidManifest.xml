@@ -2,8 +2,7 @@
           package="com.lxf.producrflavors">
 
     <application>
-        <activity android:name="com.lxf.producrflavors.ThirdActivity"
-        >
+        <activity android:name=".ThirdActivity">
         </activity>
     </application>
 </manifest>
