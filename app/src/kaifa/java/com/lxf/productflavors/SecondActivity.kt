@@ -1,4 +1,4 @@
-package com.lxf.producrflavors
+package com.lxf.productflavors
 
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity

@@ -1,5 +1,6 @@
 package com.lxf.productflavors
 
+import android.content.Intent
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.widget.ImageView
@@ -39,5 +40,7 @@ class MainActivity : AppCompatActivity() {
             else -> {
             }
         }
+
+        iv_main_first.setOnClickListener { startActivity(Intent(this, SecondActivity::class.java)) }
     }
 }
